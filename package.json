@@ -1,0 +1,24 @@
+{
+  "name": "test-candidates",
+  "version": "1.0.0",
+  "description": "tasks",
+  "private": true,
+  "scripts": {
+    "test": "ava",
+    "build": "browserify client/index.js -o public/bundle.js",
+    "start": "node index"
+  },
+  "author": "spirin.vladimir@gmail.com",
+  "dependencies": {
+    "dirty": "1.1.0",
+    "express": "4.14.1",
+    "hat": "0.0.3",
+    "ws": "*"
+  },
+  "devDependencies": {
+    "ava": "0.18.2",
+    "babelify": "7.3.0",
+    "browserify": "14.1.0",
+    "eslint": "3.15.0"
+  }
+}
